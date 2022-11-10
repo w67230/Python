@@ -18,6 +18,9 @@ print(X)
 
 #drugie polecenie
 Y = X
+Z = X[:]
 Y[2] = 173
-print(Y)
-print(X)
+Z[0] = 551
+print("Lista Y: ", Y)
+print("Lista Z: ", Z)
+print("Lista X: ", X)
